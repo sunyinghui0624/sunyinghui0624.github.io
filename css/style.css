@@ -1,0 +1,123 @@
+@import url(http://fonts.googleapis.com/css?family=Lato);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+    margin:1em;
+	padding:0;
+	border:0;
+	background:#FFEFD5;
+	font-size: 15px;
+	font-family: 'Lato', sans-serif;
+}
+
+.container{
+	width: 960px;
+	color: #FFEFD5;
+	background: url("../images/backgroundred.jpg") repeat-y;
+	margin: 0 auto;
+	font-weight: normal;
+	padding-bottom: 1em;
+}
+
+header{
+	background: url("../images/logo.jpg") no-repeat center;
+    height:125px;
+    background-color:#FFEFD5;
+    text-align: center;
+}
+
+header h1 {
+  margin-left: -99999px;
+}
+
+.contact {
+  display: none;
+}
+
+nav ul li{
+	display: inline;
+    margin:0 50px;
+}
+
+nav ul li a {
+	width:960px;
+	height:40px;
+	font-size:15px;
+	line-height: 40px;
+	color: #fff;
+	text-decoration: none;
+    font-weight:bold;
+ }
+
+nav ul li a:hover{ 
+	color:#000000;
+    text-decoration: underline;
+}
+
+a{
+	color:#E6E6FA;
+}
+
+a:hover{
+	color:#000000;
+	text-decoration: underline;
+}
+
+.photos {
+	display: block;
+	width: 800px;
+    margin: 0 auto;
+}
+
+.photos img {
+  padding-right: 25px;
+}
+
+p {
+   color:#E6E6FA;
+   text-align: justify;
+   height: auto;
+   width: 800px;
+   font-size: 18px;
+   margin-left: 80px;
+   padding-top: 5px;
+   padding-right: 80px;
+   padding-bottom: 20px; 
+}
+
+
+h1{ 
+   font-family: 'Open Sans', 'sans-serif';
+   color: #FFEBCD;
+   font-size: 40px;
+   padding-top:15px;
+   text-align: center;
+}
+
+h2{
+	font-family: 'Open Sans', 'sans-serif';
+	color:#FFEBCD;
+	font-size: 25px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-left: 80px;
+	text-align: left;
+}
+
+h3{
+	font-family: 'Open Sans', 'sans-serif';
+	color: #FFEBCD;
+	font-size:20px;
+	text-align: left;
+	margin-left: 80px;
+}
+
+article ul li {
+	width:780px;
+	font-size: 18px;
+	line-height: 20px;
+	color: #E6E6FA;
+    font-weight:bold;
+    text-align: left;
+    margin-left: 100px;
+}
